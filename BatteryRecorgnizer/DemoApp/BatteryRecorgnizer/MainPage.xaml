@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:BatteryRecorgnizer" x:Class="BatteryRecorgnizer.MainPage"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+             ios:Page.UseSafeArea="true">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="44" />
+            <RowDefinition Height="22" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Button Command="{Binding SelectPhotoCommand}" Text="Select Battery Photo" HorizontalOptions="CenterAndExpand" Grid.Row="0" />
+        <Label Text="{Binding Result}" HorizontalOptions="CenterAndExpand" VerticalTextAlignment="Center" BackgroundColor="Gray" TextColor="White" Grid.Row="1" />
+        <Image Source="{Binding BatteryImageSource}" Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="2" />
+    </Grid>
+</ContentPage>
