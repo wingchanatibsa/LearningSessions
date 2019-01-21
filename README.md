@@ -12,7 +12,7 @@ In this session: You will learn about:
 ## [Session 2: AI Demo - Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer)
 In this session: You will learn about:
 * AI vs Machine Learning vs Deep Learning
-* What is Azure Cognitive Services
+* What is Azure Cognitive Services?
 * Live Demo: [Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer/DemoApp)
 
 
