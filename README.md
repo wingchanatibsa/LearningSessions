@@ -16,3 +16,10 @@ In this session: You will learn about:
 * Live Demo: [Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer/DemoApp)
 
 
+## [Session 3: Recap: VS Live 2018](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2018)
+In this session: you will learns:
+* Things about VS Live 2018
+* Topics/Sessions attended
+* Sessions highlighted
+   * Microsoft DevOps Transformation
+   * Deliver on Cadence, Release on Demand   
