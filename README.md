@@ -23,3 +23,12 @@ In this session: you will learns:
 * Sessions highlighted
    * Microsoft DevOps Transformation
    * Deliver on Cadence, Release on Demand   
+
+## [Session 4: Introduction to Flutter](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToFlutter)
+In this session: you will learns:
+* What is Flutter?
+* What is Dart?
+* Flutter System Overview
+* What is Widgets?
+* Flutter vs Xamarin
+* [Live Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToFlutter/Demo/flutter_demo)
