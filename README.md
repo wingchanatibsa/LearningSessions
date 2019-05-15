@@ -17,7 +17,7 @@ In this session: You will learn about:
 
 
 ## [Session 3: Recap: VS Live 2018](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2018)
-In this session: you will learns:
+In this session: you will learn:
 * Things about VS Live 2018
 * Topics/Sessions attended
 * Sessions highlighted
@@ -25,7 +25,7 @@ In this session: you will learns:
    * Deliver on Cadence, Release on Demand   
 
 ## [Session 4: Introduction to Flutter](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToFlutter)
-In this session: you will learns:
+In this session: you will learn:
 * What is Flutter?
 * What is Dart?
 * Flutter System Overview
