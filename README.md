@@ -37,5 +37,6 @@ In this session: you will learn:
 In this session: you will learn:
 * What is Data Visualization?
 * Data Visualization Framework
+* 3 Types of Data Visualization
 * Tableau Demo
 * [Live Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization/Demo)
