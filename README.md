@@ -36,6 +36,6 @@ In this session: you will learn:
 ## [Session 5: Introduction to Data Visualization](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization)
 In this session: you will learn:
 * What is Data Visualization?
-* Data Visualization Framework?
+* Data Visualization Framework
 * Tableau Demo
 * [Live Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization/Demo)
