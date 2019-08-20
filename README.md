@@ -36,7 +36,9 @@ In this session: you will learn:
 ## [Session 5: Introduction to Data Visualization](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization)
 In this session: you will learn:
 * What is Data Visualization?
-* Data Visualization Framework
-* 3 Types of Data Visualization
-* Tableau Demo
-* [Live Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization/Demo)
+* What is Data Visualization Framework?
+* What are the 3 main types of Data Visualization?
+* What tools are available in data visualization?
+* Demos
+* [Tableau Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization/Demo)
+* [D3 Demo](https://wingchanatibsa.github.io/cs498dv/index.html)
