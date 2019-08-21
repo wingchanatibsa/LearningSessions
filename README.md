@@ -42,3 +42,13 @@ In this session: you will learn:
 * Demos
 * [Tableau Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization/Demo)
 * [D3 Demo](https://wingchanatibsa.github.io/cs498dv/index.html)
+
+## [Session 6: The 3D printing revolution](https://github.com/wingchanatibsa/LearningSessions/blob/master/3D%20Printing%20Revolution/)
+In this session: you will learn:
+* History of 3D printing
+* How 3D Printers Work?
+* 3D Printing techonlogies
+* Where Designs come from?
+* Where to Find 3D Printers?
+* 3D Printing Applications
+* What is the future of 3D printing?
