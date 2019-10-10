@@ -56,7 +56,7 @@ In this session: you will learn:
 ## [Session 7: Build your custom Alexa Skills](https://github.com/wingchanatibsa/LearningSessions/tree/master/BuildYourCustomAlexaSkills)
 In this session: you will learn:
 * What is Alexa Skill Workflow?
-* What is the interaction model and skill backend
+* What is the interaction model and skill backend?
 * What is dialog management?
 * What is different between Graph-based UI vs Frame-based UI?
 * What is Dialog directive - slots with prompt?
