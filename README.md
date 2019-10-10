@@ -53,7 +53,7 @@ In this session: you will learn:
 * 3D Printing Applications
 * What is the future of 3D printing?
 
-## [Session 7: Build your custom Alexa Skills]()
+## [Session 7: Build your custom Alexa Skills](https://github.com/wingchanatibsa/LearningSessions/tree/master/BuildYourCustomAlexaSkills)
 In this session: you will learn:
 * What is Alexa Skill Workflow?
 * What is the interaction model and skill backend
