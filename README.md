@@ -52,3 +52,12 @@ In this session: you will learn:
 * Where to Find 3D Printers?
 * 3D Printing Applications
 * What is the future of 3D printing?
+
+## [Session 7: Build your custom Alexa Skills]()
+In this session: you will learn:
+* What is Alexa Skill Workflow?
+* What is the interaction model and skill backend
+* What is dialog management?
+* What is different between Graph-based UI vs Frame-based UI?
+* What is Dialog directive - slots with prompt?
+* Live Demos
