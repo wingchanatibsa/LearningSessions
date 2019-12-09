@@ -61,3 +61,10 @@ In this session: you will learn:
 * What is different between Graph-based UI vs Frame-based UI?
 * What is Dialog directive - slots with prompt?
 * Live Demos
+
+## [Session 8: Introduction to NLP](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToNLP)
+In this session: you will learn:
+* What is NLP?
+* How NLP works?
+* What are the NLP Applications?
+* Project Demo - Switch
