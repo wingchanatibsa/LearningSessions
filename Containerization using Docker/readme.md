@@ -16,11 +16,12 @@ docker run [options] [image:tag] [command]
 - `docker run -it [image]` - starts a container and running in an interactive bash shell for this container
 - `docker run -v ~/Desktop:/src [image]` - start a container and mount your current folder on the host machine to `src` folder in the container.
 - `docker run -p 80:8080 [image]` - start a container and port mapping from port `80` on host machine to port `8080` in the container.
+- `docker run --name my_image_name [image]` - start a container and make the container name as `my_image_name`.
 
 For examples:
 > starts a container with python version 3.0 image and running in an interactive bash shell for this container, will remove this container after it exits
 ```
-docker run -it --rm ubuntu:latest
+docker run -it --rm --name my_ubuntu ubuntu:latest
 ```
 
 ## Execute command to a running Docker Containers
