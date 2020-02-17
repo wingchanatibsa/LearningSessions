@@ -1,7 +1,7 @@
 # Learning Sessions
 
 ## [Session 1: Introduction to Xamarin](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToXamarin)
-In this session: You will learn about:
+In this session, You will learn about:
 * Who is Xamarin?
 * What is Xamarin Platforms?
 * The different between Traditional Xamarin and Xamarin Forms
@@ -10,14 +10,14 @@ In this session: You will learn about:
 * Learning Resources
 
 ## [Session 2: AI Demo - Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer)
-In this session: You will learn about:
+In this session, You will learn about:
 * AI vs Machine Learning vs Deep Learning
 * What is Azure Cognitive Services?
 * Live Demo: [Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer/DemoApp)
 
 
 ## [Session 3: Recap: VS Live 2018](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2018)
-In this session: you will learn:
+In this session, you will learn:
 * Things about VS Live 2018
 * Topics/Sessions attended
 * Sessions highlighted
@@ -25,7 +25,7 @@ In this session: you will learn:
    * Deliver on Cadence, Release on Demand   
 
 ## [Session 4: Introduction to Flutter](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToFlutter)
-In this session: you will learn:
+In this session, you will learn:
 * What is Flutter?
 * What is Dart?
 * Flutter System Overview
@@ -34,7 +34,7 @@ In this session: you will learn:
 * [Live Demo](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToFlutter/Demo/flutter_demo)
 
 ## [Session 5: Introduction to Data Visualization](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDataVisualization)
-In this session: you will learn:
+In this session, you will learn:
 * What is Data Visualization?
 * What is Data Visualization Framework?
 * What are the 3 main types of Data Visualization?
@@ -44,7 +44,7 @@ In this session: you will learn:
 * [D3 Demo](https://wingchanatibsa.github.io/cs498dv/index.html)
 
 ## [Session 6: The 3D printing revolution](https://github.com/wingchanatibsa/LearningSessions/blob/master/3D%20Printing%20Revolution/)
-In this session: you will learn:
+In this session, you will learn:
 * History of 3D printing
 * How 3D Printers Work?
 * 3D Printing techonlogies
@@ -54,7 +54,7 @@ In this session: you will learn:
 * What is the future of 3D printing?
 
 ## [Session 7: Build your custom Alexa Skills](https://github.com/wingchanatibsa/LearningSessions/tree/master/BuildYourCustomAlexaSkills)
-In this session: you will learn:
+In this session, you will learn:
 * What is Alexa Skill Workflow?
 * What is the interaction model and skill backend?
 * What is dialog management?
@@ -63,8 +63,16 @@ In this session: you will learn:
 * Live Demos
 
 ## [Session 8: Introduction to NLP](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToNLP)
-In this session: you will learn:
+In this session, you will learn:
 * What is NLP?
 * How NLP works?
 * What are the NLP Applications?
 * Project Demo - Switch
+
+## [Session 9: Containerization using Docker](https://github.com/wingchanatibsa/LearningSessions/tree/master/Containerization%20using%20Docker)
+In this session, you will learn:
+* What is Containerization?
+* What is Docker?
+* What is inside Docker?
+* Why use Docker Containers?
+* Live Demo
