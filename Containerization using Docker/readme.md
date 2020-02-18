@@ -1,6 +1,6 @@
 # Installation Guide
-> Docker Engine is available on a variety of Linux platforms, Mac and Windows through Docker Desktop, Windows Server, and as a static binary installation. Here is the 
-[Docker Installation Page](https://docs.docker.com/install/)
+> Docker Engine is available on a variety of Linux platforms, Mac and Windows through Docker Desktop, Windows Server, and as a static binary installation. Please visit 
+[Docker Installation](https://docs.docker.com/install/) for more information.
 
 # Basic commands
 For more information about Docker commands, please visit [Docker Documentation](https://docs.docker.com/engine/reference/commandline/docker/).
