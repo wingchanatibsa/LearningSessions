@@ -3,6 +3,8 @@
 [Docker Installation Page](https://docs.docker.com/install/)
 
 # Basic commands
+For more information about Docker commands, please visit [Docker Documentation](https://docs.docker.com/engine/reference/commandline/docker/).
+
 ## Running Docker Containers
 
 > Run a command in a new container:
@@ -61,13 +63,14 @@ docker rm [container]
 ```
 
 ## Docker Image Commands
+### Build/Create an Image
 > Create an image from a Dockerfile:
 ```
 docker build [path/Dockerfile]
 ```
 - `docker build -t` - builds an image from a Dockerfile in the current directory and tags the image
 
-### Create Dockerfile
+### Create/build from Dockerfile
 > Create an empty file named `Dockerfile` inside a directory and copy and paste the text below.
 ```
 FROM ubuntu:latest
@@ -84,4 +87,16 @@ docker build -t ubuntu_fun .
 Run the `ubuntu_fun` image in interactive bash shell and remove after it exited.
 ```
 docker run -it --rm ubuntu_fun
+```
+
+### List of Docker images
+> list out docker images on your environment.
+```
+docker image ls
+```
+
+### Delete an Docker Image
+> delete an docker image by image id or image name.
+```
+docker image rm [image]
 ```
