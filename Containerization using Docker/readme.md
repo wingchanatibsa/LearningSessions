@@ -102,3 +102,76 @@ docker image ls
 ```
 docker image rm [image]
 ```
+
+# Docker Compose
+> For more information about Docker Compose, please visit [Docker Compose command-line reference](https://docs.docker.com/compose/reference/).
+
+
+## docker-compose.yml
+This quick-start guide demonstrates how to use Compose to set up and run containers. Before starting, make sure you have [Compose installed](https://docs.docker.com/compose/install/).
+
+### Example 1: Ubuntu Fun
+> This is an example of docker-compose.yml file for creating and run container for Ubuntu fun using Dockfile.
+
+```
+version: '3.3'
+
+services:
+    ubuntu_fun:
+        build: .
+        restart: always
+```
+
+### Example 2: WordPress website
+> In this example, you can use Docker Compose to easily run WordPress in an isolated environment built with Docker containers.
+
+```
+version: '3.3'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+volumes:
+    db_data: {}
+```
+
+### Start a word press website using docker compose
+> Run this command below to create and start wordpress and mysql-db containers.
+```
+docker-compose up -d
+```
+
+> If you are using Docker Desktop for Mac or Docker Desktop for Windows. you can use `http://localhost:8080` in a web browser.
+
+### Shutdown and cleanup
+
+To removes the containers and default network, but preserves your WordPress database.
+```
+docker-compose down
+```
+
+To removes the containers, default network, and the WordPress database.
+```
+docker-compose down --volumes
+```
