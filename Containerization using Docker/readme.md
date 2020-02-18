@@ -5,6 +5,8 @@
 # Basic commands
 For more information about Docker commands, please visit [Docker Documentation](https://docs.docker.com/engine/reference/commandline/docker/).
 
+For more information about Docker Base Images available, please visit [Docker Hub](https://hub.docker.com/).
+
 ## Running Docker Containers
 
 > Run a command in a new container:
