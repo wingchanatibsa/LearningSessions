@@ -177,16 +177,16 @@ docker-compose down --volumes
 ```
 
 ## Push a new image to your repository in Docker Hub
-> Create a new repository space in Docker hub
+### Create a new repository space in Docker hub
 
 Go to [Create repository page](https://hub.docker.com/repository/create) in docker hub.
 
-> login to your docker hub account
+### login to your docker hub account
 ```
 docker login
 ```
 
-> tag your local image to remote repo
+### tag your local image to remote repo
 ```
 docker tag local-image:tagname new-repo:tagname
 ```
@@ -196,7 +196,7 @@ For example:
 docker tag ubuntu_fun:1.0 wingchanibsa/ubuntu_fun:1.0
 ```
 
-> push docker image to remote repo
+### push docker image to remote repo
 ```
 docker push new-repo:tagname
 ```
@@ -206,7 +206,7 @@ For example:
 docker push wingchanibsa/ubuntu_fun:1.0
 ```
 
-> pull remote image down to your local machine
+### pull remote image down to your local machine
 ```
 docker pull repo-name/image-name:tagname
 ```
