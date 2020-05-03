@@ -76,3 +76,13 @@ In this session, you will learn:
 * What is inside Docker?
 * Why use Docker Containers?
 * Live Demo
+
+## [Session 10: How 3D printing is helping us to fight Pandemic](https://github.com/wingchanatibsa/LearningSessions/tree/master/How3DPrintingIsHelpingToFightPandemic)
+In this session, you will learn:
+* Gartner Hyper Cycle for 3D printing technology
+* News about 3D printing and Pandemic
+* How 3D printing works?
+* Should you buy one?
+* What type of 3D printers should you buy?
+* Select a Design in 3D printing
+* Open Question discussion?
