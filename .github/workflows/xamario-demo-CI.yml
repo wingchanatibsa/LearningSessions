@@ -18,15 +18,6 @@ jobs:
         cd ${{env.SOLUTION_NAME}}
         nuget restore
         msbuild ${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
-        
-  Build-Android-APK:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1  
-    - name: Build APK
-      uses: fahimshahrierrasel/Xamarin-Droid-Builder@1.0.2
-      with:
-          args: /r:True /t:SignAndroidPackage /p:AndroidSdkDirectory=/android/sdk ${{env.SOLUTION_NAME}}/${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj
     - name: Copy apk to Artifacts folder
       run: |
           mkdir -p apks
@@ -36,6 +27,24 @@ jobs:
       with:
           name: apks
           path: apks
+          
+#   Build-Android-APK:
+#     runs-on: ubuntu-latest
+#     steps:
+#     - uses: actions/checkout@v1  
+#     - name: Build APK
+#       uses: fahimshahrierrasel/Xamarin-Droid-Builder@1.0.2
+#       with:
+#           args: /r:True /t:SignAndroidPackage /p:AndroidSdkDirectory=/android/sdk ${{env.SOLUTION_NAME}}/${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj
+#     - name: Copy apk to Artifacts folder
+#       run: |
+#           mkdir -p apks
+#           cp ${{env.SOLUTION_NAME}}/${{env.ANDROID_PROJECT_NAME}}/bin/Debug/*.apk apks
+#     - name: Upload Artifacts
+#       uses: actions/upload-artifact@v1
+#       with:
+#           name: apks
+#           path: apks
           
   iOS:
     runs-on: macos-latest
