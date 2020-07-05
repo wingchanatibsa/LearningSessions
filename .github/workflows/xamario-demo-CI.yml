@@ -3,6 +3,11 @@ name: CI for Xamarin Demo project
 
 on: [push, pull_request]
 
+env:
+  SOLUTION_NAME: IntroductionToXamarin/XamarinDemo
+  ANDROID_PROJECT_NAME: XamarinDemo.Android
+  IOS_PROJECT_NAME: XamarinDemo.iOS
+  
 jobs:       
   Android:
     runs-on: macos-latest
@@ -10,16 +15,28 @@ jobs:
     - uses: actions/checkout@v1
     - name: Android
       run: |
-        cd IntroductionToXamarin/XamarinDemo
+        cd ${{env.SOLUTION_NAME}}
         nuget restore
-        msbuild XamarinDemo.Android/XamarinDemo.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
-        
+        msbuild ${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+    - name: Build APK
+      uses: fahimshahrierrasel/Xamarin-Droid-Builder@1.0.2
+      with:
+          args: /r:True /t:SignAndroidPackage /p:AndroidSdkDirectory=/android/sdk ${{env.SOLUTION_NAME}}/${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj
+    - name: Artifacts
+      run: |
+          mkdir -p apks
+          cp ${{env.SOLUTION_NAME}}/${{env.ANDROID_PROJECT_NAME}}/bin/Debug/*.apk apks
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v1
+      with:
+          name: apks
+          path: apks
   iOS:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
     - name: iOS
       run: |
-        cd IntroductionToXamarin/XamarinDemo
+        cd ${{env.SOLUTION_NAME}}
         nuget restore
-        msbuild XamarinDemo.iOS/XamarinDemo.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
+        msbuild ${{env.IOS_PROJECT_NAME}}/${{env.IOS_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
