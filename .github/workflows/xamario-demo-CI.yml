@@ -10,7 +10,7 @@ env:
   
 jobs:       
   Android:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v1
     - name: Build Android project
@@ -18,6 +18,11 @@ jobs:
         cd ${{env.SOLUTION_NAME}}
         nuget restore
         msbuild ${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        
+  Build-Android-APK:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1  
     - name: Build APK
       uses: fahimshahrierrasel/Xamarin-Droid-Builder@1.0.2
       with:
@@ -31,6 +36,7 @@ jobs:
       with:
           name: apks
           path: apks
+          
   iOS:
     runs-on: macos-latest
     steps:
