@@ -1,0 +1,25 @@
+
+name: CI for Xamarin Demo project
+
+on: [push, pull_request]
+
+jobs:       
+  Android:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Android
+      run: |
+        cd IntroductionToXamarin/XamarinDemo
+        nuget restore
+        msbuild XamarinDemo.Android/XamarinDemo.Android.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        
+  iOS:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: iOS
+      run: |
+        cd IntroductionToXamarin/XamarinDemo
+        nuget restore
+        msbuild XamarinDemo.iOS/XamarinDemo.iOS.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
