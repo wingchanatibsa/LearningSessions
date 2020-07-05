@@ -17,7 +17,7 @@ jobs:
       run: |
         cd ${{env.SOLUTION_NAME}}
         nuget restore
-        msbuild ${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug
+        msbuild ${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug /r:True /t:SignAndroidPackage
     - name: Copy apk to Artifacts folder
       run: |
           mkdir -p apks
