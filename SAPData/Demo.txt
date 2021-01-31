@@ -1,0 +1,45 @@
+Service Url:
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/
+
+MetaData
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/$metadata
+
+Querying
+- list top 10 records in Xml
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10
+
+- list top 10 records in Json
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10&$format=json
+
+- only show top 2 and next page
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=2&$skip=2&$format=json
+
+- total number of recounts
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder/$count
+
+- get a specific record by id
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder('1')?$format=json
+
+- select set of properties in a list
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10&$format=json&$select=SalesOrder,DistributionChannel,CreatedByUser,SalesOrderDate,TotalNetAmount
+
+- select set of properties in a specific record
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder('1')?$format=json&$select=SalesOrder,DistributionChannel,CreatedByUser,SalesOrderDate,TotalNetAmount
+
+- Order By Sale Order ID
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10&$format=json&$select=SalesOrder,DistributionChannel,CreatedByUser,SalesOrderDate,TotalNetAmount&$orderby=SalesOrder desc
+
+- Filter by TotalNetAmount eq
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10&$format=json&$select=SalesOrder,DistributionChannel,CreatedByUser,SalesOrderDate,TotalNetAmount&$filter=TotalNetAmount eq 175.50
+
+- Filter by Total Net Amount range
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10&$format=json&$select=SalesOrder,DistributionChannel,CreatedByUser,SalesOrderDate,TotalNetAmount&$filter=TotalNetAmount gt 10 and TotalNetAmount lt 20
+
+- Filter by end with 05
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder?$top=10&$format=json&$select=SalesOrder,DistributionChannel,CreatedByUser,SalesOrderDate,TotalNetAmount,PurchaseOrderByCustomer&$filter=endswith(PurchaseOrderByCustomer, 'CUS05')
+
+- expand navigation properties - get neated child items
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder('1')?$format=json&$expand=to_Item,to_Partner,to_PaymentPlanItemDetails,to_PricingElement,to_Text
+
+- navigation a specific child elements and filter by properties
+https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder('1')/to_Partner?$format=json&$filter=PartnerFunction eq 'BP'
