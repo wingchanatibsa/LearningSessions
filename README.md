@@ -86,3 +86,14 @@ In this session, you will learn:
 * What type of 3D printers should you buy?
 * Select a Design in 3D printing
 * Open Question discussion?
+
+## [Session 11: SAP OData](https://github.com/wingchanatibsa/LearningSessions/tree/master/SAPData)
+In this session, you will learn:
+* What is SAP S4/Hana?​
+* SAP S4/Hana Features​
+* Architecture of SAP Cloud Platform​
+* What is OData?​
+* What is SAP OData Services?​
+* OData Metadata​
+* Querying OData ​
+* Demo​
