@@ -1,0 +1,39 @@
+
+name: CI for Xamarin Demo project
+
+on: [push, pull_request]
+
+env:
+  SOLUTION_NAME: IntroductionToXamarin/XamarinDemo
+  ANDROID_PROJECT_NAME: XamarinDemo.Android
+  IOS_PROJECT_NAME: XamarinDemo.iOS
+  
+jobs:       
+  Android:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Build Android project
+      run: |
+        cd ${{env.SOLUTION_NAME}}
+        nuget restore
+        msbuild ${{env.ANDROID_PROJECT_NAME}}/${{env.ANDROID_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Configuration=Debug /r:True /t:SignAndroidPackage
+    - name: Copy apk to Artifacts folder
+      run: |
+          mkdir -p apks
+          cp ${{env.SOLUTION_NAME}}/${{env.ANDROID_PROJECT_NAME}}/bin/Debug/*.apk apks
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v1
+      with:
+          name: apks
+          path: apks
+          
+  iOS:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: iOS
+      run: |
+        cd ${{env.SOLUTION_NAME}}
+        nuget restore
+        msbuild ${{env.IOS_PROJECT_NAME}}/${{env.IOS_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
