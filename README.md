@@ -97,3 +97,12 @@ In this session, you will learn:
 * OData Metadata​
 * Querying OData ​
 * Demo​
+
+## [Session 12: Self-Driving Car](https://github.com/wingchanatibsa/LearningSessions/tree/master/Self-DrivingCar)
+In this session, you will learn:
+* What is a Self-Driving Car?​
+* Self-Driving Car Technology​
+* How to build a self-driving car​
+* Topology​
+* Technical Design​
+* Demo​
