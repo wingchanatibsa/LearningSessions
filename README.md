@@ -111,5 +111,6 @@ In this session, you will learn:
 In this session, you will learn:
 * What is Infrastructure as code (IaC)?
 * What is Terraform?
+* What is HCL?
 * Demo
 
