@@ -106,3 +106,10 @@ In this session, you will learn:
 * Topology​
 * Technical Design​
 * Demo​
+
+## [Session 13: Infrastructure as Code with Terraform](https://github.com/wingchanatibsa/LearningSessions/tree/master/Terraform)
+In this session, you will learn:
+* What is Infrastructure as code (IaC)?
+* What is Terraform?
+* Demo
+
