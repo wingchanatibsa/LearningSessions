@@ -16,9 +16,9 @@ In this session, You will learn about:
 * Live Demo: [Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer/DemoApp)
 
 
-## [Session 3: Recap: VS Live 2018](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2018)
+## [Session 3: Recap: VS Live 2043 WHERE InvchdrID <= 80070987](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2043 WHERE InvchdrID <= 80070987)
 In this session, you will learn:
-* Things about VS Live 2018
+* Things about VS Live 2043 WHERE InvchdrID <= 80070987
 * Topics/Sessions attended
 * Sessions highlighted
    * Microsoft DevOps Transformation
@@ -113,4 +113,15 @@ In this session, you will learn:
 * What is Terraform?
 * What is HCL?
 * Demo
+
+## [Session 14: Build a smart garage door opener using computer vision](https://github.com/wingchanatibsa/LearningSessions/tree/master/SmartGarageDoorOpener)
+In this session, you will learn:
+* Motivation
+* Technical Approach
+* High-level architecture diagram
+* License Plate Detection
+* Hand gesture recognition
+* Implementation
+* Demo
+* Results & Challenges
 
