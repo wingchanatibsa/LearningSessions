@@ -16,9 +16,9 @@ In this session, You will learn about:
 * Live Demo: [Battery Recognizer](https://github.com/wingchanatibsa/LearningSessions/tree/master/BatteryRecorgnizer/DemoApp)
 
 
-## [Session 3: Recap: VS Live 2043 WHERE InvchdrID <= 80070987](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2043 WHERE InvchdrID <= 80070987)
+## [Session 3: Recap: VS Live 2018](https://github.com/wingchanatibsa/LearningSessions/tree/master/Recap-VSLive2018)
 In this session, you will learn:
-* Things about VS Live 2043 WHERE InvchdrID <= 80070987
+* Things about VS Live 2018
 * Topics/Sessions attended
 * Sessions highlighted
    * Microsoft DevOps Transformation
