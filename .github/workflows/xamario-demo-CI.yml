@@ -28,12 +28,12 @@ jobs:
           name: apks
           path: apks
           
-  iOS:
-    runs-on: macos-latest
-    steps:
-    - uses: actions/checkout@v1
-    - name: iOS
-      run: |
-        cd ${{env.SOLUTION_NAME}}
-        nuget restore
-        msbuild ${{env.IOS_PROJECT_NAME}}/${{env.IOS_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
+#   iOS:
+#     runs-on: macos-latest
+#     steps:
+#     - uses: actions/checkout@v1
+#     - name: iOS
+#       run: |
+#         cd ${{env.SOLUTION_NAME}}
+#         nuget restore
+#         msbuild ${{env.IOS_PROJECT_NAME}}/${{env.IOS_PROJECT_NAME}}.csproj /verbosity:normal /t:Rebuild /p:Platform=iPhoneSimulator /p:Configuration=Debug
