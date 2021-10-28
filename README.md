@@ -125,3 +125,14 @@ In this session, you will learn:
 * Demo
 * Results & Challenges
 
+## [Session 15: Deep Learning in Healthcare](https://github.com/wingchanatibsa/LearningSessions/tree/master/DeepLearningInHealthcare)
+In this session, you will learn:
+* Research paper: Chest X-ray Images classification
+* Motivation
+* Dataset
+* Objectives
+* Modeling Approaches
+* Heatmap Generation with Grad-CAM
+* Models Training Environments
+* Results
+
