@@ -130,6 +130,7 @@ In this session, you will learn:
 * What is Deep Learning?
 * Machine Learning vs Deep Learning
 * What is Convolutional Neural Network (CNN)?
+* Applications of Deep Learning in Healthcare
 * Research paper: Chest X-ray Images classification and Visualization
 * Motivation
 * Dataset
