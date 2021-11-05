@@ -127,7 +127,10 @@ In this session, you will learn:
 
 ## [Session 15: Deep Learning in Healthcare](https://github.com/wingchanatibsa/LearningSessions/tree/master/DeepLearningInHealthcare)
 In this session, you will learn:
-* Research paper: Chest X-ray Images classification
+* What is Deep Learning?
+* Machine Learning vs Deep Learning
+* What is Convolutional Neural Network (CNN)?
+* Research paper: Chest X-ray Images classification and Visualization
 * Motivation
 * Dataset
 * Objectives
