@@ -140,3 +140,11 @@ In this session, you will learn:
 * Models Training Environments
 * Results
 
+## [Session 16: Attention Management](https://github.com/wingchanatibsa/LearningSessions/tree/master/AttentionManagement)
+In this session, you will learn:
+* Time vs Attention
+* States of your minds
+* Attentions Zones
+* Keys to effective attention management
+* Tactics to try
+* References
