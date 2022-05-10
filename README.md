@@ -148,3 +148,12 @@ In this session, you will learn:
 * Keys to effective attention management
 * Tactics to try
 * References
+
+## [Session 17: Blockchain Technology](https://github.com/wingchanatibsa/LearningSessions/tree/master/BlockChainTechnology)
+In this session, you will learn:
+* What is Blockchain?
+* Feature of Blockchain
+* How blockchain works?
+* Use of blockchain
+* Demo
+
