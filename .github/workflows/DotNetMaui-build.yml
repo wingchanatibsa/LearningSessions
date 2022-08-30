@@ -31,5 +31,15 @@ jobs:
         dotnet workload install maccatalyst
         dotnet workload install maui
       
-    - name: Build ${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}.csproj
+    - name: Build ${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}/${{env.PROJECT_NAME}}.csproj
       run: dotnet build "${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}/${{env.PROJECT_NAME}}.csproj"
+    
+    - name: Publish Android APK
+      run: dotnet publish -f:net6.0-android -c:Release
+      
+    - name: Download APK
+      uses: actions/upload-artifact@v2
+      with:
+        name: artifacts-android
+        path: |
+          ${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}/bin/Release/net6.0-android/publish/*.apk
