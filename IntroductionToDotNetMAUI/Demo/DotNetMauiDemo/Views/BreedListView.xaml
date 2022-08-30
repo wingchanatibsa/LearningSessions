@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DotNetMauiDemo.Views.BreedListView"
+             xmlns:models="clr-namespace:DotNetMauiDemo.Models"
+             xmlns:viewModels="clr-namespace:DotNetMauiDemo.ViewModels"
+             x:DataType="viewModels:BreedListViewModel"
+             Title="{Binding Title}">
+    <StackLayout>
+            <ListView BackgroundColor="AliceBlue" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                      IsPullToRefreshEnabled="True"
+                      RefreshCommand="{Binding GetBreedsCommand}"
+                      IsRefreshing="{Binding IsRefreshing}"
+                      ItemsSource="{Binding Breeds}"
+                      SelectedItem="{Binding SelectItem, Mode=TwoWay}"
+                      ItemSelected="OnItemSelected">
+                        
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Breed">
+                        <ViewCell>
+                            <Label Text="{Binding Name}" VerticalOptions="Center" Margin="25,0,0,0" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+    </StackLayout>
+</ContentPage>

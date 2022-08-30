@@ -157,3 +157,11 @@ In this session, you will learn:
 * Use of blockchain
 * Demo
 
+## [Session 18: .NET MAUI](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToDotNetMAUI)
+In this session, you will learn:
+* How does .NET MAUI work?
+* Supported Platform
+* Tooling
+* Target vs Development Platform
+* .NET MAUI vs Xamarin
+* Demo

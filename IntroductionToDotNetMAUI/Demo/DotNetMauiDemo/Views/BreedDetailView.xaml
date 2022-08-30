@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DotNetMauiDemo.Views.BreedDetailView"
+             Title="{Binding Title}">
+    <AbsoluteLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+        <ActivityIndicator IsRunning="true" AbsoluteLayout.LayoutBounds="0.5,0.5,50,50" AbsoluteLayout.LayoutFlags="PositionProportional"/>
+        <Image Source="{Binding ImageUrl}" Aspect="AspectFit" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+    </AbsoluteLayout>
+</ContentPage>
