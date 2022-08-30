@@ -35,9 +35,9 @@ jobs:
       run: dotnet build "${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}/${{env.PROJECT_NAME}}.csproj"
     
     - name: Publish Android APK
-      run: |
-      cd ${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}
-      dotnet publish -f:net6.0-android -c:Release
+      run: | 
+        cd ${{env.SOLUTION_NAME}}/${{env.PROJECT_NAME}}
+        dotnet publish -f:net6.0-android -c:Release
       
     - name: Download APK
       uses: actions/upload-artifact@v2
