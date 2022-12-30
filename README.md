@@ -165,3 +165,15 @@ In this session, you will learn:
 * Target vs Development Platform
 * .NET MAUI vs Xamarin
 * Demo
+
+## [Session 19: ChatGPT: A language model for ChatBot Applications](https://github.com/wingchanatibsa/LearningSessions/tree/master/IntroductionToChatGPT)
+In this session, you will learn:
+* What is Chatbots?
+* What is ChatGPT?
+* History of CPT Modeling?
+* Size of ChatGPT model
+* What is OpenAI?
+* How does ChatGPT work?
+* What are some potential applications for ChatGPT?
+* Useful links
+* Demo
