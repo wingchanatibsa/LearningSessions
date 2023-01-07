@@ -170,10 +170,11 @@ In this session, you will learn:
 In this session, you will learn:
 * What is Chatbots?
 * What is ChatGPT?
-* History of CPT Modeling?
+* History of GPT Modeling?
 * Size of ChatGPT model
 * What is OpenAI?
 * How does ChatGPT work?
 * What are some potential applications for ChatGPT?
+* Drawbacks
 * Useful links
 * Demo
