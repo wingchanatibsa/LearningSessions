@@ -178,3 +178,15 @@ In this session, you will learn:
 * Drawbacks
 * Useful links
 * Demo
+
+## [Session 20: Crash Logging with App Center and App Insight](https://github.com/wingchanatibsa/LearningSessions/tree/master/CrashLoggingWithAppCenterAndAppInsight)
+In this session, you will learn:
+* Introduction
+* What is App Center?
+* What is App Insight?
+* Integrating App Center and App Insight
+* Configuring App Center for Crash Logging
+* Analyzing Crashes with App Insight
+* KQL (Kusto Query Language)
+* KQL Example
+* Demo
