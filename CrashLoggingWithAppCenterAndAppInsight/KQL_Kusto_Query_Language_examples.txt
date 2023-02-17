@@ -1,0 +1,37 @@
+KQL Kusto Query Language
+
+//unhandled error less than 2 hour ago and distributor ID 4739
+customEvents 
+| where name == 'UnhandledException'
+| extend Properties = todynamic(tostring(customDimensions.Properties))
+| where timestamp >= ago(2h) and Properties.distributor_id == "4739"
+| project Properties.distributor_id, Properties.truck_id, Properties.exception_message
+
+//export both unhandled exception and handled exception breakdown
+customEvents 
+| where name in ("UnhandledException", "HandledException")
+//| where timestamp between (datetime(2023-02-09) .. datetime(2023-02-10))
+| extend Properties = todynamic(tostring(customDimensions.Properties))
+| summarize count = count(Properties.exception_message) by name, application_Version, truck_id = tostring(Properties.truck_id), distributor_id = tostring(Properties.distributor_id), serial_number = tostring(Properties.serial_number), exception_message = tostring(Properties.exception_message)
+
+//render pie chart
+customEvents 
+| where name == 'UnhandledException'
+| where timestamp between (startofday(datetime(2023-02-09)) .. endofday(datetime(2023-02-15)))
+| extend Properties = todynamic(tostring(customDimensions.Properties))
+| summarize count = count(Properties.exception_message)
+    by
+    distributor_id = tostring(Properties.distributor_id)
+| render piechart 
+
+//render columnchart/timechart
+customEvents 
+| where name == 'UnhandledException'
+| where timestamp between (datetime(2023-02-09) .. datetime(now))
+| extend Properties = todynamic(tostring(customDimensions.Properties))
+| summarize count = count(Properties.exception_message)
+    by
+    distributor_truck_id = strcat(tostring(Properties.distributor_id), "T", tostring(Properties.truck_id)),
+    event_date = bin(timestamp, 1m)
+| render columnchart   
+
