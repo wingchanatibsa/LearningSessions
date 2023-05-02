@@ -10,7 +10,7 @@ customEvents
 //export both unhandled exception and handled exception breakdown
 customEvents 
 | where name in ("UnhandledException", "HandledException")
-//| where timestamp between (datetime(2023-02-09) .. datetime(2023-02-10))
+| where timestamp between (datetime(2023-02-09) .. datetime(now))
 | extend Properties = todynamic(tostring(customDimensions.Properties))
 | summarize count = count(Properties.exception_message) by name, application_Version, truck_id = tostring(Properties.truck_id), distributor_id = tostring(Properties.distributor_id), serial_number = tostring(Properties.serial_number), exception_message = tostring(Properties.exception_message)
 

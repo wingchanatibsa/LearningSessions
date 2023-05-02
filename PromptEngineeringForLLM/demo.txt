@@ -1,0 +1,174 @@
+#Tactic 1: Use delimiters to clearly indicate distinct parts of the input
+
+Summarize the text delimited by triple backticks into a single sentence.
+
+```
+Our Purpose
+To glorify God and enrich lives as we deliver the most trustworthy source of power to the world.
+
+We fulfill our purpose by doing business based on biblical principles – such as honesty, humility, service and care – in a way that is welcoming and loving to all. As a company contributor, you are free to interact with the purpose in whatever way is most meaningful to you. Our values, however, are unchanging, and we ask that our team members try their best to live them as they serve our key stakeholders: team members, customers, distributors and franchisees, suppliers and vendors, communities and shareholders. By creating a welcoming and caring environment, we hope to create a positive experience for our team members and everyone else whom Interstate touches, no matter their background or belief system.
+
+Our Values
+
+Our Purpose is why we exist. Our Values drive how we go about that existence and represent who we are.
+ 
+Along with Interstate’s seven values, team members inspire and encourage each other by sharing an eighth value that’s as special and unique as every person’s fingerprint.
+
+How It All Started
+
+When John Searcy founded Interstate Batteries in 1952, his vision was for the company to help its team members, distributors and partners provide for their families and give back to their communities. Selling batteries was just a vehicle to accomplish a much broader goal. He wanted to make his company about something more than profits, to work in a way that would please God. John treated people as he would want to be treated and modeled this well to his whole team, including our Chairman Norm Miller. When Norm began to run the company in 1978, he held true to these ideals and within a number of years Norm included “to glorify God” in our mission statement. In 2013, we further defined our purpose and articulated a set of core values with input from all our key stakeholders.
+```
+
+#Tactic 2: Ask for a structured output
+
+Generate a list of five made-up children book titles along with their authors and genres. 
+Provide them in csv format with the following keys: 
+book_id, title, author, genre.
+
+
+#Tactic 3: Ask the model to check whether conditions are satisfied
+##Example 3a: content with steps by steps instruction
+
+You will be provided with text delimited by triple quotes. 
+If it contains a sequence of instructions, re-write those instructions in the following format:
+
+Step 1 - ...
+Step 2 - …
+…
+Step N - …
+
+If the text does not contain a sequence of instructions, then simply write "No steps provided."
+
+```
+Now before you get in there, just make sure the engine is cool before you get to work. OK, now let's remove those terminals. And hey, always - and I mean always - remove the negative terminal first. This is usually a black cable with the minus sign on the terminal.
+
+See it? Now grab your wrench and loosen the nut on the negative terminal to detach it. You may need a screwdriver to remove the terminal.
+
+Great job! Now let's remove the positive terminal. This one's usually got a red cap with the plus sign on it. Now, take your time and loosen the nut with your wrench and detach the cable. Take as long as you need while I stare into this beautiful piece of machinery. Oh, and once you're done, remember to check for any other battery holddowns that may be securing it in place. You'll have to remove these before you continue.
+
+Alright, got it? Now let's carefully remove the old battery and set it aside. There you go.
+
+Carefully grab that brand-spanking-new Interstate Battery and set it in place. Oh, that's a beauty.
+
+Now let's reinstall any hold-down brackets or hardware you may have removed before. Now let's move on to the terminals: be sure to set the negative end near the negative terminal and the positive near the positive terminal. Alright, now let's connect the terminals. This time we're going to start with the positive terminal. Tighten the nut with the wrench until it's secure.
+
+Now let's do the same with the negative terminal.
+
+All right, now get in your car, turn it on and take that old battery to your nearest auto shop so they can recycle it for free.
+
+Now, one thing to watch out for is your vehicle may idle rough and transmission may experience unusual shifting until it relearns your driving habits due to the loss of battery power.
+```
+
+##Example 3a: content without instruction
+
+You will be provided with text delimited by triple quotes. 
+If it contains a sequence of instructions, re-write those instructions in the following format:
+
+Step 1 - ...
+Step 2 - …
+…
+Step N - …
+
+If the text does not contain a sequence of instructions, then simply write "No steps provided."
+
+```
+A battery that swells and becomes hot to the touch is also a direct result of overcharging and can be very dangerous and even explode. Always use the correct charger when charging a car battery, and have it checked periodically by a specialist if charging must be done frequently. Pay attention to labels that indicate exactly how the battery should be charged; this helps eliminate overcharging and possible harm and injury.
+```
+
+#Tactic 4: "Few-shot" prompting
+
+Your task is to answer in a consistent style.
+
+<you>: Tell me about our purpose
+
+<me>: To glorify God and enrich lives as we deliver the most trustworthy source of power to the world.
+
+<you>: Teach me about our values.
+
+
+#Tactic 5a: Specify the steps required to complete a task
+
+Perform the following actions: 
+1 - Summarize the following text delimited by triple backticks with 1 sentence.
+2 - List each event in the summary.
+3 - Output a Json object that contains the following keys: event, year.
+4 - Translate the summary into Spanish.
+
+Separate your answers with line breaks.
+
+Text:
+```
+In 1952, when John Searcy founded Interstate Batteries, his vision was for the company to help its team members, distributors and partners provide for their families and give back to their communities. Selling batteries was just a vehicle to accomplish a much broader goal. He wanted to make his company about something more than profits, to work in a way that would please God. John treated people as he would want to be treated and modeled this well to his whole team, including our Chairman Norm Miller. In 1978, when Norm began to run the company, he held true to these ideals and within a number of years Norm included “to glorify God” in our mission statement. In 2013, we further defined our purpose and articulated a set of core values with input from all our key stakeholders.
+```
+
+
+#Tactic 5b: Ask for output in a specified format
+
+Perform the following actions: 
+1 - Summarize the following text delimited by triple backticks with 1 sentence.
+2 - List each event in the summary.
+3 - Output a Json object that contains the following keys: event, year.
+4 - Translate the summary into Spanish.
+
+Use the following format:
+Text: <text to summarize>
+Summary: <summary>
+Translation: <summary translation>
+events: <list of events>
+Output JSON: <json with event and year>
+
+Text:
+```
+In 1952, when John Searcy founded Interstate Batteries, his vision was for the company to help its team members, distributors and partners provide for their families and give back to their communities. Selling batteries was just a vehicle to accomplish a much broader goal. He wanted to make his company about something more than profits, to work in a way that would please God. John treated people as he would want to be treated and modeled this well to his whole team, including our Chairman Norm Miller. In 1978, when Norm began to run the company, he held true to these ideals and within a number of years Norm included “to glorify God” in our mission statement. In 2013, we further defined our purpose and articulated a set of core values with input from all our key stakeholders.
+```
+
+#Tactic 6a:  Instruct the model to work out its own solution before rushing to a conclusion
+
+Your task is to determine if the student's solution is correct or not.
+
+Retta put $100.00 in a bank account that gains 30% interest annually. How much interest will be accumulated in 1 year? 
+
+Student's solution
+Principal = $100
+Interest rate = 30%
+Interest = Principal * Interest Rate - Principal
+Answer = $30
+
+#Tactic 6b: We can fix this by instructing the model to work out its own solution first
+
+Your task is to determine if the student's solution is correct or not.
+To solve the problem do the following:
+- First, work out your own solution to the problem. 
+- Then to calculate the interest, you can multiply the amount of the principal by the interest rate in decimal form.
+
+Use the following format:
+Question:
+```
+question here
+```
+Student's solution:
+```
+student's solution here
+```
+Actual solution:
+```
+steps to work out the solution and your solution here
+```
+Is the student's solution the same as actual solution just calculated:
+```
+yes or no
+```
+Student grade:
+```
+correct or incorrect
+```
+
+Question:
+
+Retta put $100.00 in a bank account that gains 30% interest annually. How much interest will be accumulated in 1 year? 
+
+Student's solution
+Principal = $100
+Interest rate = 30%
+Interest = Principal * Interest Rate - Principal
+Answer = $30
