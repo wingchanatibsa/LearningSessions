@@ -191,7 +191,7 @@ In this session, you will learn:
 * KQL Example
 * Demo
 
-##[Session 21: Prompt Engineering for LLM](https://github.com/wingchanatibsa/LearningSessions/tree/master/PromptEngineeringForLLM)
+## [Session 21: Prompt Engineering for LLM](https://github.com/wingchanatibsa/LearningSessions/tree/master/PromptEngineeringForLLM)
 In this session, you will learn:
 * Definition
 * Types of Prompts
