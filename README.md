@@ -190,3 +190,11 @@ In this session, you will learn:
 * KQL (Kusto Query Language)
 * KQL Example
 * Demo
+
+##[Session 21: Prompt Engineering for LLM](https://github.com/wingchanatibsa/LearningSessions/tree/master/PromptEngineeringForLLM)
+In this session, you will learn:
+* Definition
+* Types of Prompts
+* Best practices for designing prompts
+* Fine-tuning prompts
+* Demo
