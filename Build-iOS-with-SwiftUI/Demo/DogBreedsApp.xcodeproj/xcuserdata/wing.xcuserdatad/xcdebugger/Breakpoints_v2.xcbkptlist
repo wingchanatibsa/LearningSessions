@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1F24115E-3583-4C2E-8A25-692B6B733FEA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07A194D5-8CC0-4087-9BAF-3FB78C271980"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "07A194D5-8CC0-4087-9BAF-3FB78C271980 - a8a45127503b1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "07A194D5-8CC0-4087-9BAF-3FB78C271980 - a8a45127503b1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "07A194D5-8CC0-4087-9BAF-3FB78C271980 - a8a45127503b1267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "670845AC-90F0-4B86-B873-C7A7ACB98B2C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "670845AC-90F0-4B86-B873-C7A7ACB98B2C - a8a45127503b113a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "670845AC-90F0-4B86-B873-C7A7ACB98B2C - a8a45127503b113a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "670845AC-90F0-4B86-B873-C7A7ACB98B2C - 3a1f3199d106d3f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "488">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F4F2243-6C67-41CC-A028-9EFBBBE11A42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "5F4F2243-6C67-41CC-A028-9EFBBBE11A42 - a8a45127503b11be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "596">
+               </Location>
+               <Location
+                  uuid = "5F4F2243-6C67-41CC-A028-9EFBBBE11A42 - ca792d1254cb1b07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "5F4F2243-6C67-41CC-A028-9EFBBBE11A42 - a8a45127503b11be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "5F4F2243-6C67-41CC-A028-9EFBBBE11A42 - 3a1f3199d106d276"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "660">
+               </Location>
+               <Location
+                  uuid = "5F4F2243-6C67-41CC-A028-9EFBBBE11A42 - ca792d1254cb1a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8 - ca792d1254cb1b07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8 - ca792d1254cb1b07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8 - ca792d1254cb1b07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "400">
+               </Location>
+               <Location
+                  uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8 - ca792d1254cb1a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8 - ca792d1254cb1a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "225982E1-E5B2-4281-BF1E-A6DDD85F15C8 - ca792d1254cb1a41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA9CB64E-EFB5-4642-9A9C-4254929BBF5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "DA9CB64E-EFB5-4642-9A9C-4254929BBF5E - a8a45127503b1246"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "DA9CB64E-EFB5-4642-9A9C-4254929BBF5E - a8a45127503b12f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "DA9CB64E-EFB5-4642-9A9C-4254929BBF5E - 3a1f3199d106d0fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for DogBreedsApp.DetailViewModel.loadImageAsync() async throws -&gt; ()"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/ViewModels/DetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDC32598-A89D-46E8-97D6-ADE68D5C26AB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/Views/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9829B134-03B8-4832-AC58-0F8242BC3C77"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/Views/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "9829B134-03B8-4832-AC58-0F8242BC3C77 - a904e060ba75653a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in DogBreedsApp.DetailView.body.getter : some"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/Views/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "9829B134-03B8-4832-AC58-0F8242BC3C77 - f6b3cf3b0257648e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in DogBreedsApp.DetailView.body.getter : some"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/Views/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "9829B134-03B8-4832-AC58-0F8242BC3C77 - 53c2273713d62538"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in DogBreedsApp.DetailView.body.getter : some"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/Views/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "9829B134-03B8-4832-AC58-0F8242BC3C77 - b6e2c4a33fe74537"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #2 @Sendable () async -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitle(_: SwiftUI.LocalizedStringKey, displayMode: SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in DogBreedsApp.DetailView.body.getter : some"
+                  moduleName = "DogBreedsApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wing/Documents/Projects/SwiftUI/DogBreedsApp/DogBreedsApp/DogBreedsApp/Views/DetailView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5FDAECD-BE55-4218-AA3B-B70DB6D86803"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4197E6D6-D63D-432A-89AD-EDAEA1E9CF4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48CA15BF-14E6-4F5F-85D1-4C43C1E34101"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BB47F20-4E59-4F6F-8DE9-81291D5DD954"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/Views/DetailView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFCB2C25-876C-48EC-A9C9-667C80C02197"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DogBreedsApp/ViewModels/DetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "loadImageAsync()"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
