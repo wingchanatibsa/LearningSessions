@@ -21,10 +21,17 @@ When John Searcy founded Interstate Batteries in 1952, his vision was for the co
 
 #Tactic 2: Ask for a structured output
 
-Generate a list of five made-up children book titles along with their authors and genres. 
-Provide them in csv format with the following keys: 
-book_id, title, author, genre.
+Create a MySQL query for all students in the Computer Science Department with delimited by triple backticks
 
+```
+Table departments, columns = [DepartmentId, DepartmentName]
+Table students, columns = [DepartmentId, StudentId, StudentName]
+```
+
+Generate a list of 10 made-up departments and students records. 
+Provide them in csv format with the following keys: StudentId, StudentName and DepartmentName
+
+What is the result for the query above for all students in the Computer Science Department in table format?
 
 #Tactic 3: Ask the model to check whether conditions are satisfied
 ##Example 3a: content with steps by steps instruction
@@ -79,12 +86,17 @@ A battery that swells and becomes hot to the touch is also a direct result of ov
 
 Your task is to answer in a consistent style.
 
-<you>: Tell me about our purpose
+<statement>: This is awesome!
 
-<me>: To glorify God and enrich lives as we deliver the most trustworthy source of power to the world.
+<sentiment>: Thumb up
 
-<you>: Teach me about our values.
+<statement>: This is bad!
 
+<sentiment>: Thumb down
+
+<statement>: What a horrible show!
+
+<sentiment>:
 
 #Tactic 5a: Specify the steps required to complete a task
 
