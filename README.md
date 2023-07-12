@@ -198,3 +198,12 @@ In this session, you will learn:
 * Best practices for designing prompts
 * Fine-tuning prompts
 * Demo
+
+## [Session 22: Build iOS apps with SwiftUI](https://github.com/wingchanatibsa/LearningSessions/tree/master/Build-iOS-with-SwiftUI)
+In this session, you will learn:
+* Introduction
+* History of Swift and SwiftUI
+* Key Features of SwiftUI
+* Elements of SwiftUI
+* Code Sample
+* Demo
