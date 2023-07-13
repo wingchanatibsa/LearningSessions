@@ -46,7 +46,7 @@ jobs:
           scheme: ${{ env.SCHEME }}
           configuration: Release
           destination: "${{ env.DESTINATION }}"
-          action: build
+          action: test
 
 
 #       - name: Build and test
