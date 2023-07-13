@@ -28,6 +28,9 @@ jobs:
         with:
           xcode-version: "latest-stable"  # Replace with your desired Xcode version
 
+      - name: find simulator version
+        run: |
+          xcrun simctl list devices booted
 #       - name: Install dependencies
 #         run: |
 #           cd "${{ env.SOLUTION }}"
