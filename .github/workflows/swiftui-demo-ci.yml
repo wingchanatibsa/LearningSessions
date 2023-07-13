@@ -12,7 +12,7 @@ env:
   SCHEME: "DogBreedsApp"
   SOLUTION: "Build-iOS-with-SwiftUI/Demo/"
   PROJECT: "DogBreedsApp.xcodeproj"
-  DESTINATION: "platform=iOS Simulator,OS=16.2,id=86C6A1BA-6BCA-4A8F-B671-89284D24622A,name=iPhone 14 Pro"
+  DESTINATION: "platform=iOS Simulator,OS=16.2,name=iPhone 14 Pro"
 
 jobs:
   build:
@@ -37,6 +37,7 @@ jobs:
           project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
           scheme: ${{ env.SCHEME }}
           configuration: Release
+          destination: "${{ env.DESTINATION }}"
           action: build
 #       - name: Install dependencies
 #         run: |
