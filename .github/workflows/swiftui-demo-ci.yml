@@ -10,7 +10,8 @@ on:
 
 env:
   SCHEME: "DogBreedsApp"
-  PROJECT: "/Build-iOS-with-SwiftUI/Demo/DogBreedsApp.xcodeproj"
+  SOLUTION: "Build-iOS-with-SwiftUI/Demo/"
+  PROJECT: "DogBreedsApp.xcodeproj"
   DESTINATION: "platform=iOS Simulator,OS=16.2,name=iPhone 14 Pro Max"
 
 jobs:
@@ -29,9 +30,10 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd $SOLUTION
           swift package resolve
           swift package update
 
       - name: Build and test
         run: |
-          xcodebuild clean build test -project $PROJECT -scheme $SCHEME -destination "$DESTINATION" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES
+          xcodebuild clean build test -project $SOLUTION$PROJECT -scheme $SCHEME -destination "$DESTINATION" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES
