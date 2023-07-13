@@ -12,7 +12,7 @@ env:
   SCHEME: "DogBreedsApp"
   SOLUTION: "Build-iOS-with-SwiftUI/Demo/"
   PROJECT: "DogBreedsApp.xcodeproj"
-  DESTINATION: "platform=iOS Simulator,OS=16.2,name=iPhone 14"
+  DESTINATION: "platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device"
 
 jobs:
   build:
