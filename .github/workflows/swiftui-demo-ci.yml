@@ -28,13 +28,13 @@ jobs:
         with:
           xcode-version: "latest-stable"  # Replace with your desired Xcode version
 
-      - name: find simulator version
-        run: |
-          xcrun simctl list devices
+#       - name: find simulator version
+#         run: |
+#           xcrun simctl list devices
       - name: build
         uses: sersoft-gmbh/xcodebuild-action@v2
         with:
-          workspace: "${{ env.SOLUTION }}${{ env.PROJECT }}"
+          project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
           scheme: ${{ env.SCHEME }}
           configuration: Release
           action: build
