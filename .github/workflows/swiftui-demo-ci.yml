@@ -30,7 +30,7 @@ jobs:
 
       - name: find simulator version
         run: |
-          xcrun simctl list devices booted
+          xcrun simctl list devices
 #       - name: Install dependencies
 #         run: |
 #           cd "${{ env.SOLUTION }}"
