@@ -10,7 +10,7 @@ on:
 
 env:
   SCHEME: "DogBreedsApp"
-  PROJECT: "Build-iOS-with-SwiftUI/Demo/DogBreedsApp.xcodeproj"
+  PROJECT: "/Build-iOS-with-SwiftUI/Demo/DogBreedsApp.xcodeproj"
   DESTINATION: "platform=iOS Simulator,OS=14.0,name=iPhone 14 Pro Max"
 
 jobs:
