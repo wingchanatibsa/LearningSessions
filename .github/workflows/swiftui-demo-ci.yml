@@ -31,12 +31,18 @@ jobs:
       - name: find simulator version
         run: |
           xcrun simctl list devices
+      - uses: sersoft-gmbh/xcodebuild-action@v2
+        with:
+          workspace: "${{ env.SOLUTION }}${{ env.PROJECT }}"
+          scheme: ${{ env.SCHEME }}
+          configuration: Release
+          action: build
 #       - name: Install dependencies
 #         run: |
 #           cd "${{ env.SOLUTION }}"
 #           swift package resolve
 #           swift package update
 
-      - name: Build and test
-        run: |
-          xcodebuild clean build -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme $SCHEME -destination "${{ env.DESTINATION }}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES
+#       - name: Build and test
+#         run: |
+#           xcodebuild clean build -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme $SCHEME -destination "${{ env.DESTINATION }}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES
