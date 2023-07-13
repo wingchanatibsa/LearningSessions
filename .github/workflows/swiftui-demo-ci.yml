@@ -12,7 +12,7 @@ env:
   SCHEME: "DogBreedsApp"
   SOLUTION: "Build-iOS-with-SwiftUI/Demo/"
   PROJECT: "DogBreedsApp.xcodeproj"
-  DESTINATION: "platform=iOS Simulator,OS=16.2,name=iPhone 14 Pro Max"
+  DESTINATION: "platform=iOS Simulator,OS=16.2,name=iPhone 14"
 
 jobs:
   build:
