@@ -12,7 +12,7 @@ env:
   SCHEME: "DogBreedsApp"
   SOLUTION: "Build-iOS-with-SwiftUI/Demo/"
   PROJECT: "DogBreedsApp.xcodeproj"
-  DESTINATION: "platform=iOS Simulator,OS=14.0,name=iPhone 12"
+  DESTINATION: "platform=iOS Simulator,OS=14.3,name=iPhone 8"
 
 jobs:
   build:
@@ -28,13 +28,13 @@ jobs:
       - name: install simulator
         run: xcversion simulators --install='iOS 14.3'
       
-      - name: Prepare iOS 14.4 simulator
+      - name: Prepare iOS 14.3 simulator
         run: |
           sudo mkdir -p /Library/Developer/CoreSimulator/Profiles/Runtimes
-          sudo ln -s /Applications/Xcode_14.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS\ 14.4.simruntime
+          sudo ln -s /Applications/Xcode_14.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS\ 14.3.simruntime
           xcrun simctl list runtimes
-          xcrun simctl create iPhone_8 "iPhone 8" "com.apple.CoreSimulator.SimRuntime.iOS-14-4"
-          xcrun simctl list devices 14.4
+          xcrun simctl create iPhone_8 "iPhone 8" "com.apple.CoreSimulator.SimRuntime.iOS-14-3"
+          xcrun simctl list devices 14.3
           
       - name: Show Available Destinations
         run: xcodebuild -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme "${{env.SCHEME}}" -showdestinations
