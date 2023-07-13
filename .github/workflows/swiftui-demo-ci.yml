@@ -31,6 +31,9 @@ jobs:
 #       - name: find simulator version
 #         run: |
 #           xcrun simctl list devices
+      - name: boot simulator
+        run: |
+          xcrun simctl boot "iPhone 14"
       - name: build
         uses: sersoft-gmbh/xcodebuild-action@v2
         with:
