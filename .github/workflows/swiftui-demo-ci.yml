@@ -28,11 +28,11 @@ jobs:
         with:
           xcode-version: "latest-stable"  # Replace with your desired Xcode version
 
-      - name: Install dependencies
-        run: |
-          cd "${{ env.SOLUTION }}"
-          swift package resolve
-          swift package update
+#       - name: Install dependencies
+#         run: |
+#           cd "${{ env.SOLUTION }}"
+#           swift package resolve
+#           swift package update
 
       - name: Build and test
         run: |
