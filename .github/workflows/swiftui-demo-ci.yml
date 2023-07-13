@@ -45,7 +45,7 @@ jobs:
           project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
           scheme: ${{ env.SCHEME }}
           configuration: Release
-#           destination: "${{ env.DESTINATION }}"
+          destination: "${{ env.DESTINATION }}"
           action: build-for-testing
 
 
