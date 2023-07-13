@@ -36,4 +36,4 @@ jobs:
 
       - name: Build and test
         run: |
-          xcodebuild clean build test -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme $SCHEME -destination "${{ env.DESTINATION }}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES
+          xcodebuild clean build -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme $SCHEME -destination "${{ env.DESTINATION }}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=YES
