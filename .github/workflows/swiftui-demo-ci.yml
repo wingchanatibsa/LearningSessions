@@ -31,7 +31,8 @@ jobs:
       - name: find simulator version
         run: |
           xcrun simctl list devices
-      - uses: sersoft-gmbh/xcodebuild-action@v2
+      - name: build
+        uses: sersoft-gmbh/xcodebuild-action@v2
         with:
           workspace: "${{ env.SOLUTION }}${{ env.PROJECT }}"
           scheme: ${{ env.SCHEME }}
