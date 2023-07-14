@@ -16,18 +16,29 @@ env:
 
 jobs:
   build:
-    runs-on: macOS-latest
-
+    name: Build iOS example project
+    runs-on: macOS-12
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v2
+      - name: Build
+        run: xcodebuild build -project "${{env.SOLUTION}}${{env.PROJECT}}" -scheme "${{env.SCHEME}}" -sdk iphonesimulator -destination "${{env.destination}}"
+
+# jobs:
+#   build:
+#     runs-on: macOS-latest
+
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
       
-      - name: Setup Xcode version
-        uses: maxim-lobanov/setup-xcode@v1.5.1
+#       - name: Setup Xcode version
+#         uses: maxim-lobanov/setup-xcode@v1.5.1
       
-      - uses: futureware-tech/simulator-action@v2
-        with:
-          model: 'iPhone 14'
+#       - name: Launch iOS Simulator
+#         uses: futureware-tech/simulator-action@v2
+#         with:
+#           model: 'iPhone 14'
 #       - name: install simulator
 #         run: xcversion simulators --install='iOS 14.3'
       
@@ -68,15 +79,15 @@ jobs:
 #       - name: boot simulator
 #         run: |
 #           xcrun simctl boot "iPhone 14"
-      - name: build
-        uses: sersoft-gmbh/xcodebuild-action@v2
-        with:
-          project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
-          scheme: ${{ env.SCHEME }}
-#           configuration: Release
-          sdk: iphonesimulator
-          destination: "${{ env.DESTINATION }}"
-          action: build-for-testing
+#       - name: build
+#         uses: sersoft-gmbh/xcodebuild-action@v2
+#         with:
+#           project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
+#           scheme: ${{ env.SCHEME }}
+# #           configuration: Release
+#           sdk: iphonesimulator
+#           destination: "${{ env.DESTINATION }}"
+#           action: build-for-testing
 
 
 #       - name: Build and test
