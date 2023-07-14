@@ -27,7 +27,7 @@ jobs:
             -project "${{env.SOLUTION}}${{env.PROJECT}}" 
             -sdk iphonesimulator 
             -destination "${{env.DESTINATION}}"
-#             -scheme "${{env.SCHEME}}" 
+            -scheme "${{env.SCHEME}}" 
 
 # jobs:
 #   build:
