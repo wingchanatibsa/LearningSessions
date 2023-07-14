@@ -71,6 +71,7 @@ jobs:
           project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
           scheme: ${{ env.SCHEME }}
           configuration: Release
+          sdk: iphonesimulator
           destination: "${{ env.DESTINATION }}"
           action: build-for-testing
 
