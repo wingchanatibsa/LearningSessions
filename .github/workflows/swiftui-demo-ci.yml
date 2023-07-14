@@ -22,12 +22,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build
-        run: |
-            xcodebuild clean build 
-            -project "${{env.SOLUTION}}${{env.PROJECT}}" 
-            -sdk iphonesimulator 
-            -destination "${{env.DESTINATION}}"
-            -scheme "${{env.SCHEME}}" 
+        run: xcodebuild clean build -project "${{env.SOLUTION}}${{env.PROJECT}}" -sdk iphonesimulator -destination "${{env.DESTINATION}}"
+#             -scheme "${{env.SCHEME}}" 
 
 # jobs:
 #   build:
