@@ -25,19 +25,19 @@ jobs:
       - name: Setup Xcode version
         uses: maxim-lobanov/setup-xcode@v1.5.1
         
-      - name: install simulator
-        run: xcversion simulators --install='iOS 14.3'
+#       - name: install simulator
+#         run: xcversion simulators --install='iOS 14.3'
       
-      - name: Prepare iOS 14.3 simulator
-        run: |
-          sudo mkdir -p /Library/Developer/CoreSimulator/Profiles/Runtimes
-          sudo ln -s /Applications/Xcode_14.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS\ 14.3.simruntime
-          xcrun simctl list runtimes
-          xcrun simctl create iPhone_8 "iPhone 8" "com.apple.CoreSimulator.SimRuntime.iOS-14-3"
-          xcrun simctl list devices 14.3
+#       - name: Prepare iOS 14.3 simulator
+#         run: |
+#           sudo mkdir -p /Library/Developer/CoreSimulator/Profiles/Runtimes
+#           sudo ln -s /Applications/Xcode_14.2.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS\ 14.3.simruntime
+#           xcrun simctl list runtimes
+#           xcrun simctl create iPhone_8 "iPhone 8" "com.apple.CoreSimulator.SimRuntime.iOS-14-3"
+#           xcrun simctl list devices 14.3
           
-      - name: Show Available Destinations
-        run: xcodebuild -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme "${{env.SCHEME}}" -showdestinations
+#       - name: Show Available Destinations
+#         run: xcodebuild -project "${{ env.SOLUTION }}${{ env.PROJECT }}" -scheme "${{env.SCHEME}}" -showdestinations
 
         
 #       - name: install simulator
@@ -70,7 +70,7 @@ jobs:
         with:
           project: "${{ env.SOLUTION }}${{ env.PROJECT }}"
           scheme: ${{ env.SCHEME }}
-          configuration: Release
+#           configuration: Release
           sdk: iphonesimulator
           destination: "${{ env.DESTINATION }}"
           action: build-for-testing
