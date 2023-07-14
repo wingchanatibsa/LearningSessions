@@ -22,3 +22,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Build
         run: xcodebuild clean build -project "${{env.SOLUTION}}${{env.PROJECT}}" -sdk iphonesimulator -destination "${{env.DESTINATION}}"
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
