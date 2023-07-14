@@ -12,12 +12,12 @@ env:
   SCHEME: "DogBreedsApp"
   SOLUTION: "Build-iOS-with-SwiftUI/Demo/"
   PROJECT: "DogBreedsApp.xcodeproj"
-  DESTINATION: "platform=iOS Simulator,name=iPhone 14"
+  DESTINATION: "platform=iOS Simulator,OS=16.2,name=iPhone 14"
 
 jobs:
   build:
     name: Build iOS example project
-    runs-on: macOS-12
+    runs-on: macOS-13
     steps:
       - name: Checkout
         uses: actions/checkout@v2
