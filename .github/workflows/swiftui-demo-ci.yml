@@ -24,3 +24,6 @@ jobs:
         run: xcodebuild clean build -project "${{env.SOLUTION}}${{env.PROJECT}}" -sdk iphonesimulator -destination "${{env.DESTINATION}}"
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
+        with:
+          name: iOS IPA
+          path: "output.ipa"
