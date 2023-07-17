@@ -14,4 +14,8 @@ struct Breed: Codable, Identifiable, Comparable {
     static func < (lhs: Breed, rhs: Breed) -> Bool{
         return lhs.name < rhs.name
     }
+    
+    static func > (lhs: Breed, rhs: Breed) -> Bool{
+        return lhs.name > rhs.name
+    }
 }

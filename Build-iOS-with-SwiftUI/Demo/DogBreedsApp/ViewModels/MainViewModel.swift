@@ -9,6 +9,7 @@ import Foundation
 
 class MainViewModel : ObservableObject {
     let pageTitle: String = "Dog Breeds"
+    @Published var isAscending: Bool = true
     
     func getBreedsAysnc() async throws -> [Breed]? {
         let url = URL(string: "https://dog.ceo/api/breeds/list/all")!
@@ -19,7 +20,7 @@ class MainViewModel : ObservableObject {
             let breeds = items.keys.map{name -> Breed in
                 return Breed(name: name)
             }
-            return breeds.sorted()
+            return isAscending ? breeds.sorted() : breeds.sorted{$0 > $1}
         }
         return nil
     }

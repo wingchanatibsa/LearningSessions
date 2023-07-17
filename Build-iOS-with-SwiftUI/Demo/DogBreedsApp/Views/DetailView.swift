@@ -10,7 +10,8 @@ import SwiftUI
 struct DetailView: View {
     let breedName: String
     
-    @StateObject var viewModel = DetailViewModel()
+    //@StateObject var viewModel = DetailViewModel()
+    let viewModel: DetailViewModel
     
     var body: some View {
         NavigationView{
@@ -49,6 +50,7 @@ struct ImageView: View {
 
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView(breedName: "chow")
+        let viewModel = DetailViewModel()
+        DetailView(breedName: "chow", viewModel: viewModel)
     }
 }
