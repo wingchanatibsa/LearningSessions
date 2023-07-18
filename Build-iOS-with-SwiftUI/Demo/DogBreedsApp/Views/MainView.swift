@@ -12,9 +12,18 @@ struct MainView: View {
     @StateObject var detailViewModel = DetailViewModel()
     @State private var breeds: [Breed] = []
     
-    fileprivate func refreshData() async {
+    fileprivate func refreshData(isForce: Bool = false) async {
         do {
-            breeds = try await viewModel.getBreedsAysnc()!
+            if breeds.isEmpty || isForce {
+                breeds = try await viewModel.getBreedsAysnc()!
+            }
+            
+            if viewModel.isAscending {
+                breeds.sort()
+            } else {
+                breeds.sort{$0 > $1}
+            }
+            
         } catch {
             print ("Error fetching breeds \(error)")
         }
@@ -26,6 +35,9 @@ struct MainView: View {
                 .navigationBarTitle("\(viewModel.pageTitle)", displayMode: .inline)
                 .navigationBarItems(trailing: NavigationBarItem(isAscending: $viewModel.isAscending, sortAction: sortedAction
                 ))
+                .refreshable {
+                    await refreshData(isForce: true)
+                }
                 .task {
                     await refreshData()
                 }

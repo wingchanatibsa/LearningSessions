@@ -20,7 +20,7 @@ class MainViewModel : ObservableObject {
             let breeds = items.keys.map{name -> Breed in
                 return Breed(name: name)
             }
-            return isAscending ? breeds.sorted() : breeds.sorted{$0 > $1}
+            return breeds
         }
         return nil
     }
