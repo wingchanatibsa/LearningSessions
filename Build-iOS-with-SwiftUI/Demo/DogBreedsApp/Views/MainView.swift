@@ -21,7 +21,7 @@ struct MainView: View {
             if viewModel.isAscending {
                 breeds.sort()
             } else {
-                breeds.sort{$0 > $1}
+                breeds.sort(by: >)
             }
             
         } catch {
@@ -80,8 +80,11 @@ struct NavigationBarItem: View {
                 await sortAction()
             }
         }) {
-            Image(systemName: isAscending ? "arrow.up" : "arrow.down")
-                .imageScale(.large)
+            HStack {
+                Text("Sort")
+                Image(systemName: isAscending ? "arrow.up" : "arrow.down")
+                    .imageScale(.large)
+            }
         }
     }
 }
